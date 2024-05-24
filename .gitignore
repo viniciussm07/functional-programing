@@ -1,5 +1,0 @@
-# Arquivos objeto
-*.o
-
-# Arquivos de interface Haskell
-*.hi
