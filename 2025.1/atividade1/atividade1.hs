@@ -15,7 +15,7 @@ main = do
 
 ehTriangulo :: Integer -> Integer -> Integer -> Bool
 ehTriangulo a b c
-    | a + b > c && a + c > b && c + b > a = True
+    | a + b >= c && a + c >= b && c + b >= a = True
     | otherwise = False
 
 semiperimetro :: Integer -> Integer -> Integer -> Double
